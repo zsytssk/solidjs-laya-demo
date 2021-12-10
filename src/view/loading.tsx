@@ -1,11 +1,6 @@
 import { createRenderEffect, createSignal, JSX, Match, Switch } from 'solid-js';
 
-import {
-    LayaSprite,
-    LayaProgressBar,
-    LayaBox,
-    LayaImage,
-} from 'customRenderer';
+import { LayaBox, LayaImage, LayaProgressBar } from 'customRenderer';
 import { Pop } from 'customRenderer/Component/pop';
 
 import { res } from '@app/res';

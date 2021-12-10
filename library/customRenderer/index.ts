@@ -1,8 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { createRenderer } from 'solid-js/universal';
 
-import { createEle } from './createEle';
-
 export * from './layaCom';
 
 export const {
@@ -19,7 +17,7 @@ export const {
     mergeProps,
 } = createRenderer({
     createElement(type: string) {
-        return createEle(type);
+        return null;
     },
     createTextNode(_value) {
         //
