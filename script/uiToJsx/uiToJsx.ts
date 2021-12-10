@@ -41,11 +41,6 @@ async function main() {
             file_path,
         });
 
-        if (name === 'hall') {
-            console.log(`test:>`, name, file);
-            await write('./test.json', stringify(data, 100));
-        }
-
         const pool_key = path.relative(src_path, file);
 
         parse_pool[pool_key] = { ...data, file_path, name };

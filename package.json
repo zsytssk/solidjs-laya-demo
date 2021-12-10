@@ -5,7 +5,6 @@
     "main": "index.js",
     "scripts": {
         "start": "cross-env ENV=DEV webpack serve --progress --mode development",
-        "test": "cross-env ENV=TEST webpack --progress --mode development",
         "prod": "cross-env ENV=PROD webpack --progress --mode production",
         "build": "ts-node --project ./script/tsconfig.json --files ./script/build/build.ts",
         "lint": "eslint . --ext .ts",
@@ -45,5 +44,6 @@
         "webpack-glsl-loader": "^1.0.1"
     },
     "dependencies": {
+        "md5-file": "^5.0.0"
     }
 }

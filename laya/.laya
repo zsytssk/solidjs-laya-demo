@@ -2,7 +2,7 @@
    <asynRes>img,temp,sound                                             </asynRes>
    <unDealRes>embed                                             </unDealRes>
    <resTypes>png,jpg   </resTypes>
-   <resExportPath>bin/res/atlas   </resExportPath>
+   <resExportPath>bin/res   </resExportPath>
    <asynResExportPath>bin   </asynResExportPath>
    <codeExportPath>src/ui   </codeExportPath>
    <codeImports><![CDATA[import laya.ui.*;
