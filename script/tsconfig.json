@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "target": "es6",
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true,
+        "noEmitHelpers": false,
+        "noEmit": true,
+        "sourceMap": true,
+        "watch": true,
+        "lib": ["es2019"],
+        "esModuleInterop": true
+    },
+    "include": ["./"]
+}

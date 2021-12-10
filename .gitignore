@@ -1,0 +1,15 @@
+﻿node_modules/
+
+.DS_Store
+
+# build file
+/bin/*
+/build
+
+# laya file
+/laya/views
+/src/ui/*
+#IDE编译调试的会修改此文件格式
+/src/GameConfig.ts
+
+

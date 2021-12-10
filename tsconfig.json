@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "target": "es6",
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true,
+        "noEmitHelpers": false,
+        "noEmit": true,
+        "sourceMap": true,
+        "watch": true,
+        "jsx": "preserve",
+        "jsxImportSource": "solid-js",
+        "esModuleInterop": true,
+        "baseUrl": "./",
+        "paths": {
+            "*": ["node_modules/*", "libs/*", "library/*"],
+            "./*": ["test/*"],
+            "@app/*": ["src/*"]
+        }
+    },
+    "exclude": ["src/ui/**/*.tsx"],
+    "include": ["./src", "./libs", "./test", "./library"]
+}
