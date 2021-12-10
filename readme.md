@@ -18,3 +18,7 @@
    这些文件是默认 ignore，将相应的代码复制到 src/view 中编辑成自己想要的格式
 5. 用 solidjs 愉快的编写自己的代码吧
 6. `yarn run build` 发布项目
+
+### 漂亮的截图
+
+![demo](/demo.png)
