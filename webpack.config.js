@@ -79,7 +79,7 @@ const dev_config = {
         },
         https: false,
         port: 5010,
-        open: 'http://localhost:5050',
+        open: 'http://localhost:5010',
     },
 };
 
